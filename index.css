@@ -1,0 +1,45 @@
+/* #root {
+  children-color: rgb(221, 239, 221);
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.course {
+  text-align: center;
+}
+.course-container {
+  display: flex;
+  justify-content: space-around;
+}
+.course-list {
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  overflow: scroll;
+}
+.course-element:nth-child(2n) {
+  background-color: rgb(221, 239, 221);
+}
+.course-selected {
+  background-color: deepskyblue !important;
+}
+.course-element {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.course-selection {
+  border: 1px solid black;
+  width: 300px;
+}
+
+.action {
+  margin: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
